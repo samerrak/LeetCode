@@ -2,6 +2,9 @@ import java.util.*;
 
 
 public class Roman2Int {
+    // Runtime: 6 ms, faster than 85.67% of Java online submissions for Roman to Integer.
+    //Memory Usage: 42.9 MB, less than 88.72% of Java online submissions
+    
     public int romanToInt(String s) {
         HashMap<Character, Integer> romanTable = new HashMap<>();
         romanTable.put('I', 1); romanTable.put('V', 5); romanTable.put('X', 10);
